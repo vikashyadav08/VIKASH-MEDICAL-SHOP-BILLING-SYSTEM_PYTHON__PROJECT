@@ -110,7 +110,7 @@ doctor_recommendations = {
 
 # Streamlit app
 st.title("🧑‍⚕️😷Vikash Medical+ Shop Billing System🏥🩺")
-st.markdown("Welcome to **Abhishek Medical Shop**! Enjoy a 10% discount on total purchases over 1000 INR.")
+st.markdown("Welcome to **Vikash Medical Shop**! Enjoy a 10% discount on total purchases over 1000 INR.")
 
 # Multi-Language Support
 from deep_translator import GoogleTranslator # type: ignore
@@ -170,7 +170,7 @@ except FileNotFoundError:
     st.sidebar.warning("image 1 file not found. Please check the file path.")
 
 # Add developer title and pic to sidebar
-st.sidebar.title("Developer: Vikash KUmar Yadav")
+st.sidebar.title("Developer: Vikash Kumar Yadav")
 developer_path = "pic.jpg"  # Ensure this file is in the same directory as your script
 try:
     st.sidebar.image(developer_path)
